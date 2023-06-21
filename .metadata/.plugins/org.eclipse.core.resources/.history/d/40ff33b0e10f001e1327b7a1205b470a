@@ -1,10 +1,8 @@
 
 public class Demo {
+
 	public static void main(String[] args) {
-		
-		int a = 10;
-		
-		String firstName = "nikunj";
-		
+		System.out.println("Hello java");
 	}
+
 }
