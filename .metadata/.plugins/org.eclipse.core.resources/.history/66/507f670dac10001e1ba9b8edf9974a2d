@@ -1,0 +1,79 @@
+Core java : 
+*********************
+JVM
+JRE
+JDK
+
+********************
+Variables and dataypes
+
+variable naming rules : 
+
+1 : A variable name can consist of Capital letters A-Z, lowercase letters a-z digits 0-9, and two special characters such as _ underscore and $ dollar sign.
+2 : The first character must not be a digit.
+3 : Blank spaces cannot be used in variable names.
+4 : Java keywords cannot be used as variable names.
+5 : Variable names are case-sensitive.
+6 : There is no limit on the length of a variable name but by convention, it should be between 4 to 15 chars.
+7 : Variable names always should exist on the left-hand side of assignment operators.
+
+naming convention : 
+
+If the name contains multiple words, start it with the lowercase letter followed by an uppercase letter such as firstName, lastName.
+Avoid using one-character variables such as x, y, z.
+
+package name : should be in lowercase
+Class name : Everyword should start with Capital
+
+*****************************************************
+Datatypes : 
+
+it indicates that what type of data variable will hold and how much space in mamory it will occupied
+
+8 datatypes in java : 
+
+byte   0 	1 byte  2^7-1 to -2^7  : 127 to -128 
+short  0	2 byte  2^15-1 to -2^15 : 32767 to 32768
+int    0	4 byte  2^31-1 to -2^31 : 
+long   0	8 byte
+
+float  0.0	4 byte
+double 0.0	8 byte
+
+char    	2 byte
+boolean false	1bit
+
+1 bit
+8 bit => 1 byte
+1024 byte => 1kb
+1024 kb => 1 mb
+1024 mb => 1 gb
+1024 gb => 1 tb
+
+datatype casting : 
+convert one type of data into another type
+
+types : 
+widninig - implicite
+nerrowing - explicite
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
