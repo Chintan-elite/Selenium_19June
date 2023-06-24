@@ -60,6 +60,25 @@ nerrowing - explicite
 *******************************
 oprator : 
 
+Aarithmatic : +,-,*,/,%
+Logical : &&, ||, !
+Relational : ==, <, >, <=, >=
+Unary : ++, --
+Turnary
+
+*************************
+statements : 
+
+conditional
+if
+if-else
+switch-case
+
+looping
+for
+while
+do-while
+
 
 
 
