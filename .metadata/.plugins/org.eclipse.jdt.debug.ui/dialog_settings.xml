@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="expressionHistory">
+		<item key="expressionHistoryEntry_0" value="66"/>
+		<item key="expressionHistoryEntryCount" value="1"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.debug.ui.ExpressionInformationControlCreator$ExpressionInformationControl">
 		<item key="WIDTH" value="816"/>

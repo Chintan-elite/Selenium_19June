@@ -1,9 +1,13 @@
 package statements;
 
+import java.util.Scanner;
+
 public class S002_If_else {
 	public static void main(String[] args) {
 		
-		int marks = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter marks : ");
+		int marks = sc.nextInt();
 		
 		//91-100 : A
 		//71-90  : B
