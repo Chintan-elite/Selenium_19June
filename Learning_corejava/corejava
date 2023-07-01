@@ -85,6 +85,66 @@ armstrong
 fibbonacci
 factorial
 
+************************
+Array : 
+
+collection of same type of data :
+
+1D array
+multi dimentional array
+
+array index starts from 0.
+
+
+********************************
+********************************
+POP : precedure oriented, ex. C
+top-bottom
+
+OOPS : object oriented programming
+bottom-up : 
+
+class
+object
+encaptulation
+inheritance
+polymorphism
+abstraction
+
+***********
+class : logical entity
+object : realtime entity
+state / variable / field / datamember
+behaviour / methods / function /function member
+
+method : 
+block to write logical opration
+
+accessmodifire  returntype methodname(args)
+{
+	//body
+}
+
+ex : public void sample()
+{
+	//logic
+}
+
+object :
+classname ref.var. = new construnctorofclass()
+
+ex : class Pen
+
+object : Pen p = new Pen()
+
+*********************************
+datamember and function member can be of two types:
+static  / class member   : signle copy /
+non static / instance member : copy as per object created
+
+
+
+
 
 
 
