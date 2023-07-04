@@ -3,4 +3,7 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.Appendable"/>
+    <fullyQualifiedTypeName name="oops.Student"/>
+    <fullyQualifiedTypeName name="oops.Calc"/>
+    <fullyQualifiedTypeName name="oops.Test"/>
 </qualifiedTypeNameHistroy>

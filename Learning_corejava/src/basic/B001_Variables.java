@@ -1,5 +1,7 @@
 package basic;
 
+import oops.Test;
+
 public class B001_Variables {
 	public static void main(String[] args) {
 		
@@ -11,6 +13,7 @@ public class B001_Variables {
 //		int _1a = 23;
 //		int $abc = 25;
 //		int myFirstName = 12;
+		
 		
 		
 	}

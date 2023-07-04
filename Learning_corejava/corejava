@@ -142,6 +142,30 @@ datamember and function member can be of two types:
 static  / class member   : signle copy /
 non static / instance member : copy as per object created
 
+***************
+Constructor
+--same name as a classname
+
+--types of cons : 
+default or 0 parameter
+parameterised or user define
+
+constructor overloading : 
+same name with diffrent parameter
+we can diffrencite para. by length or by type
+
+************************************
+Access modifier : 
+public : anywhare
+private : within class only
+protected : within package but outside the packahe with inheritance
+default : within package
+
+
+
+
+
+
 
 
 

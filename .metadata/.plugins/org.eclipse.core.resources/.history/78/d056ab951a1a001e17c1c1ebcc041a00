@@ -1,0 +1,11 @@
+package oops;
+
+public class Test {
+		int a = 20;
+		String name ="demo";
+		
+		private void sample()
+		{
+			
+		}
+}
