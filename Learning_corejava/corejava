@@ -161,6 +161,83 @@ private : within class only
 protected : within package but outside the packahe with inheritance
 default : within package
 
+***********************************
+Encaptulation : 
+Encapsulation is one of the key features of object-oriented 
+programming. Encapsulation refers to the bundling of fields 
+and methods inside a single class. It prevents outer classes 
+from accessing and changing fields and methods of a class. 
+This also helps to achieve data hiding.
+
+***********************************
+Inheritance : 
+nheritance in Java is the method to create a hierarchy between 
+classes by inheriting from other classes. Java Inheritance is
+ transitive - so if Sedan extends Car and Car extends Vehicle, 
+ then Sedan is also inherited from the Vehicle class. 
+ The Vehicle becomes the superclass of both Car and Sedan.
+
+1 : simple 
+A-->B
+
+2 : multilevel
+A-->B-->C
+
+3 : hierarchical
+A-->B
+|-->C
+
+4 : multiple
+--not supported in java
+A-->C
+B--|
+
+******************************
+Polymorphism
+
+Polymorphism is considered one of the important features of 
+Object-Oriented Programming. Polymorphism allows us to perform 
+a single action in different ways. In other words, 
+polymorphism allows you to define one interface and have multiple implementations.
+The word “poly” means many and “morphs” means forms,
+So it means many forms.
+
+compiletime ex. methodoverloading
+-same name method in same class with diffrent arguments
+-args can be differ by length or by type
+
+
+Runtime ex. method overriding
+-same name name method in super class to subclass with diffrent body
+
+***************************************************
+Abstraction : 
+
+Data abstraction is the process of hiding certain details
+and showing only essential information to the user.
+
+Abstraction can be achieved with either abstract classes 
+or interfaces 
+
+Abstract class : partial abstraction
+contains both abstract an dinstance method
+
+Interface : 100% abstraction
+contains only abstract method
+
+Abstract Method : 
+method without body
+
+public void display();
+
+Instance method : 
+method with body
+
+public void display()
+{
+	//body
+}
+
 
 
 
