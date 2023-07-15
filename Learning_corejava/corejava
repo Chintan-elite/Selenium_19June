@@ -238,6 +238,45 @@ public void display()
 	//body
 }
 
+********************************************
+Keywords : 
+
+static : creates single copy in a memory
+this : referes current class member
+super : referes super class member
+final : constant 
+
+we can use final keyword with variable, method and class
+variable : we can not change the value
+method : we can not override
+class : we can not inherit
+
+**********************************************
+java Important classes : 
+
+String
+String buffer
+String builder
+Object
+Wrapper
+
+String : 
+immutable class / not changeable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

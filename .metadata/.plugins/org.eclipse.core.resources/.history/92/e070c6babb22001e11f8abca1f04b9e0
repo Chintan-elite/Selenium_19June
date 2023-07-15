@@ -1,0 +1,17 @@
+package impclasses;
+
+public class I002_StringMethods {
+	public static void main(String[] args) {
+		
+		
+		String s = "Sun Ries In East";
+		
+		System.out.println(s.length());
+		System.out.println(s.toUpperCase());
+		System.out.println(s.toLowerCase());
+		System.out.println(s.charAt(5));
+		System.out.println(s.indexOf("u"));
+		System.out.println(s.substring(4));
+		System.out.println(s.substring(4,10));
+	}
+}

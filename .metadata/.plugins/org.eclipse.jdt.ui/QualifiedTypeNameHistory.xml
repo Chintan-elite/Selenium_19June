@@ -13,4 +13,6 @@
     <fullyQualifiedTypeName name="oops.Practice"/>
     <fullyQualifiedTypeName name="oops.AbsImpl"/>
     <fullyQualifiedTypeName name="oops.InterImpl"/>
+    <fullyQualifiedTypeName name="impclasses.I001_StringDemo"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
