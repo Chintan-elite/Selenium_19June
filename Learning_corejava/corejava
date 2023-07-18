@@ -263,6 +263,58 @@ Wrapper
 String : 
 immutable class / not changeable
 
+stringbuffer  :
+mutable / syncronised
+
+stringbuilder : 
+mutable/asyncronised
+
+Object class : 
+Parent class of an every java classes
+
+Wrapper Class : 
+classes dedicated to every primitive datatypes
+ex : int ==> Integer
+
+int -> Integer : Boxing
+Integer->int : unboxing
+
+*****************************************************
+Exception Handling
+*********************
+Exception : Abnormal condition accures during execution of program
+compiletime /checked / cought
+
+Throweble =>Exception => all compiletime exception
+ex : ClassNotFoundException, SQLException
+
+runtime / unchecked / uncought
+Throweble=>Exception=>RunTimeException => All runtimeexception
+ex : ArithmaticException, ArrayIndexOutofBoundException
+
+
+Error : 
+
+
+
+
+Fileio
+Thread
+Collection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,13 @@
+package impclasses;
+
+public class I003_StringbuffrerNBuilder {
+	public static void main(String[] args) {
+		
+		
+		StringBuffer sb = new StringBuffer("Hello");
+		sb.append("Java");
+		System.out.println(sb);
+		
+		
+	}
+}
