@@ -292,31 +292,13 @@ runtime / unchecked / uncought
 Throweble=>Exception=>RunTimeException => All runtimeexception
 ex : ArithmaticException, ArrayIndexOutofBoundException
 
-***********************************
-Fileio - file input/file output
 
-stream  :flow of data from source to destination
-file reading : input
-file writing : output
-
-data transfer can be done in two way : 
-char based
->FileReader
->FileWriter
-
-byte based
->FilieInputStream
->FileOutputStream
+Error : 
 
 
 
 
-
-
-
-
-
-
+Fileio
 Thread
 Collection
 
