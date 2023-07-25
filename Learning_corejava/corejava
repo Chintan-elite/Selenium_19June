@@ -308,19 +308,17 @@ byte based
 >FilieInputStream
 >FileOutputStream
 
-
-
-
-
-
-
-
-
-
+File
+******************************
 Thread
+*******
+light wait process
+
+-Thread class
+-Runnable interface
+*************************************
 Collection
-
-
+****************
 
 
 
