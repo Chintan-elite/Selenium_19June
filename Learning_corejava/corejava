@@ -319,6 +319,13 @@ light wait process
 *************************************
 Collection
 ****************
+Arraylist : allows duplication and preserve insertion order
+Hashset : do not allowed duplication and store data in random manner
+Linkedhashset : do not allowed duplication and preserve insertion order
+Treeset : do not allowed duplication and store data in ace or desc order
+
+hashmap : sotre data in key - value pair , do not alowed key duplication
+
 
 
 
