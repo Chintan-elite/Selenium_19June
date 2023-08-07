@@ -1,0 +1,95 @@
+Selenium : 
+************************
+Speed
+Repeatable
+Comprehnsive
+Accurecy
+
+
+
+***********************
+QTP : quick test pro
+-commercial
+-limited add-ons
+-only used for windows
+
+
+Selenium
+-open source
+-any os
+-any browser
+************************************
+
+selenium is a suite - group of tools
+*********************
+Selenium IDE - recored and replay
+Selenium RC - 
+Selenium Webdriver
+Selenium Grid
+
+
+Selenium WebDriver : 
+*********************
+java
+python
+C#
+php
+perl
+ruby
+
+**********
+WebElement : 
+***************
+Textbox
+buttons
+radiobuttons
+checkbox
+dropdown
+link
+****************
+Locators : 
+****************
+id
+name
+classname
+tagname
+xpath
+cssselectors
+inktext
+partiallinktext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
