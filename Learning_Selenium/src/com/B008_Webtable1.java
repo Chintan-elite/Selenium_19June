@@ -48,17 +48,22 @@ public class B008_Webtable1 {
 //		}
 		
 		//tc-3
-		List<WebElement> height = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tbody/tr/td[3]"));
-		
+		List<WebElement> height = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tbody/tr/td[3]"));	
+		int max = 0;
 		for(WebElement h : height)
 		{
 			String s = h.getText();
-			System.out.println(s.substring(0,s.indexOf('m')));
+			String str = s.substring(0,s.indexOf('m'));
+			int a = Integer.parseInt(str);
+			if(a>max)
+			{
+				max = a;
+			}
 		}
 		
-		
-		
-		
+		//System.out.println(max);
+		String name =  driver.findElement(By.xpath("//span[text()='"+max+"m']/parent::td/preceding-sibling::th/span")).getText();
+		System.out.println(name);
 		
 		
 		
