@@ -1,5 +1,6 @@
 package window_switching;
 
+import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -19,14 +20,20 @@ public class W002_WindowHandling {
 		
 		
 		Set<String> allwins = driver.getWindowHandles();
-		for(String win : allwins)
-		{
-			if(!win.equals(mainWin))
-			{
-				driver.switchTo().window(win);
-			}
-		}
-		
+//		for(String win : allwins)
+//		{
+//			
+//			System.out.println(win);
+//			if(!win.equals(mainWin))
+//			{
+//				driver.switchTo().window(win);
+//			}
+//		}
+
+		Iterator<String> itr = allwins.iterator();
+		System.out.println(itr.next());
+		//System.out.println(itr.next());
+		driver.switchTo().window(itr.next());
 		
 		String data = driver.findElement(By.id("sampleHeading")).getText();
 		System.out.println(data);
