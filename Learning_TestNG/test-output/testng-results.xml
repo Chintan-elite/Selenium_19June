@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="12" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-25T03:21:13Z" name="Suite" finished-at="2023-09-25T03:21:13Z" duration-ms="150">
+    <groups>
+      <group name="smoke">
+        <method signature="Account.current()[pri:0, instance:org.Account@8462f31]" name="current" class="org.Account"/>
+        <method signature="Payment.creditCard()[pri:0, instance:org.Payment@4d1c005e]" name="creditCard" class="org.Payment"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="Account.loan()[pri:0, instance:org.Account@66982506]" name="loan" class="org.Account"/>
+        <method signature="Payment.debitCard()[pri:0, instance:org.Payment@72bc6553]" name="debitCard" class="org.Payment"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-09-25T03:21:13Z" name="smoke" finished-at="2023-09-25T03:21:13Z" duration-ms="39">
+      <class name="org.Account">
+        <test-method signature="current()[pri:0, instance:org.Account@8462f31]" started-at="2023-09-25T03:21:13Z" name="current" finished-at="2023-09-25T03:21:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- current -->
+      </class> <!-- org.Account -->
+      <class name="org.Payment">
+        <test-method signature="creditCard()[pri:0, instance:org.Payment@4d1c005e]" started-at="2023-09-25T03:21:13Z" name="creditCard" finished-at="2023-09-25T03:21:13Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCard -->
+      </class> <!-- org.Payment -->
+    </test> <!-- smoke -->
+    <test started-at="2023-09-25T03:21:13Z" name="sanity" finished-at="2023-09-25T03:21:13Z" duration-ms="14">
+      <class name="org.Account">
+        <test-method signature="loan()[pri:0, instance:org.Account@66982506]" started-at="2023-09-25T03:21:13Z" name="loan" finished-at="2023-09-25T03:21:13Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loan -->
+      </class> <!-- org.Account -->
+      <class name="org.Payment">
+        <test-method signature="debitCard()[pri:0, instance:org.Payment@72bc6553]" started-at="2023-09-25T03:21:13Z" name="debitCard" finished-at="2023-09-25T03:21:13Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debitCard -->
+      </class> <!-- org.Payment -->
+    </test> <!-- sanity -->
+  </suite> <!-- Suite -->
+</testng-results>
