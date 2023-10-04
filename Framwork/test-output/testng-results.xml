@@ -1,40 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-29T03:13:30Z" name="Default suite" finished-at="2023-09-29T03:13:53Z" duration-ms="23100">
+  <suite started-at="2023-10-04T03:21:16Z" name="Default suite" finished-at="2023-10-04T03:21:30Z" duration-ms="13070">
     <groups>
     </groups>
-    <test started-at="2023-09-29T03:13:30Z" name="Default test" finished-at="2023-09-29T03:13:53Z" duration-ms="23100">
-      <class name="com.LoginTest_Multipleparameter">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LoginTest_Multipleparameter@3f4faf53]" started-at="2023-09-29T03:13:30Z" name="setUp" finished-at="2023-09-29T03:13:33Z" duration-ms="3709" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.LoginTest_Multipleparameter@3f4faf53]" started-at="2023-09-29T03:13:36Z" name="login" data-provider="dp" finished-at="2023-09-29T03:13:39Z" duration-ms="3617" status="PASS">
+    <test started-at="2023-10-04T03:21:16Z" name="Default test" finished-at="2023-10-04T03:21:30Z" duration-ms="13070">
+      <class name="com.HybridDriven">
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridDriven@6d60fe40]" started-at="2023-10-04T03:21:19Z" name="test" data-provider="dp" finished-at="2023-10-04T03:21:22Z" duration-ms="2532" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[test@gmail.com]]>
+                <![CDATA[open browser]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[browser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.LoginTest_Multipleparameter@3f4faf53]" started-at="2023-09-29T03:13:39Z" name="login" data-provider="dp" finished-at="2023-09-29T03:13:43Z" duration-ms="3284" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridDriven@6d60fe40]" started-at="2023-10-04T03:21:22Z" name="test" data-provider="dp" finished-at="2023-10-04T03:21:26Z" duration-ms="4137" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[tech@gmail.com]]>
+                <![CDATA[launch url]]>
               </value>
             </param>
             <param index="1">
+              <value>
+                <![CDATA[url]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[https://twitter.com/i/flow/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridDriven@6d60fe40]" started-at="2023-10-04T03:21:26Z" name="test" data-provider="dp" finished-at="2023-10-04T03:21:28Z" duration-ms="1772" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[text]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9099613040]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridDriven@6d60fe40]" started-at="2023-10-04T03:21:28Z" name="test" data-provider="dp" finished-at="2023-10-04T03:21:28Z" duration-ms="393" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[next]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//div[@role='button'][2]]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridDriven@6d60fe40]" started-at="2023-10-04T03:21:28Z" name="test" data-provider="dp" finished-at="2023-10-04T03:21:29Z" duration-ms="1077" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[name]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="4">
               <value>
                 <![CDATA[tech123]]>
               </value>
@@ -42,60 +161,39 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.LoginTest_Multipleparameter@3f4faf53]" started-at="2023-09-29T03:13:43Z" name="login" data-provider="dp" finished-at="2023-09-29T03:13:46Z" duration-ms="3279" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.HybridDriven@6d60fe40]" started-at="2023-10-04T03:21:29Z" name="test" data-provider="dp" finished-at="2023-10-04T03:21:30Z" duration-ms="117" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[pass@gmail.com]]>
+                <![CDATA[login]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[pass123]]>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[xpath]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[//*[text()='Log in']]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[NA]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.LoginTest_Multipleparameter@3f4faf53]" started-at="2023-09-29T03:13:46Z" name="login" data-provider="dp" finished-at="2023-09-29T03:13:49Z" duration-ms="3274" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[abc@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[abc123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.LoginTest_Multipleparameter@3f4faf53]" started-at="2023-09-29T03:13:49Z" name="login" data-provider="dp" finished-at="2023-09-29T03:13:53Z" duration-ms="3276" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[xyz@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[xyz123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="close()[pri:0, instance:com.LoginTest_Multipleparameter@3f4faf53]" started-at="2023-09-29T03:13:53Z" name="close" finished-at="2023-09-29T03:13:53Z" duration-ms="263" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- com.LoginTest_Multipleparameter -->
+        </test-method> <!-- test -->
+      </class> <!-- com.HybridDriven -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
