@@ -27,11 +27,13 @@ public class Day1Page {
 		
 		public void enterEmail(String userEmail)
 		{
+			username.clear();
 			username.sendKeys(userEmail);
 		}
 		
 		public void enterPass(String userPass)
 		{
+			password.clear();
 			password.sendKeys(userPass);
 		}
 		

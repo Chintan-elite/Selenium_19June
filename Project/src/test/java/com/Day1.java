@@ -1,5 +1,7 @@
 package com;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import util.Driverconnection;
 
 public class Day1 {
+	
+	public static final Logger log = LogManager.getLogger(Day1.class);
 	public static void main(String[] args) {
 		
 		WebDriver driver = Driverconnection.connect(Util.URL);
@@ -21,15 +25,19 @@ public class Day1 {
 			
 			if(homeHeader.contains(Util.USERNAME))
 			{
-				System.out.println("Passed");
+				//System.out.println("Passed");
+				log.info("Passed");
 			}
 			else
 			{
-				System.out.println("Failed");
+				//System.out.println("Failed");
+				log.info("Failed");
 			}
 			
+			
 		} catch (Exception e) {
-			System.out.println("Failed");
+			//System.out.println("Failed");
+			log.info("Failed");
 		}
 		
 		
